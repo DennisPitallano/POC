@@ -1,0 +1,27 @@
+
+.noteCard{
+  padding: 5px;
+  margin: 5px;
+  background-color: cornsilk;
+}
+.cardBody{
+  overflow: hidden;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  transition: 0.5s;
+}
+/*
+.noteCard:hover{
+  background: #e4e6e7;
+  color: white;
+}
+*/
+
+.cardText{
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  display: -webkit-box;
+  white-space: pre-line;
+  -webkit-line-clamp: 10; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
